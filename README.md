@@ -1,5 +1,8 @@
 # react-toggle-flags
 
+[![](https://img.shields.io/npm/v/react-toggle-flags.svg?style=flat-square)](https://www.npmjs.com/package/react-toggle-flags)
+[![](https://npm.taobao.org/badge/v/react-toggle-flags.svg)](http://npm.taobao.org/package/react-toggle-flags)
+
 A component which will help toggling boolean flags easily in your app.
 
 ## Install
