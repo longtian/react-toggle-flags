@@ -13,19 +13,19 @@ npm install react-toggle-flags
 ### Show control pannel
 
 ```js
-import  DebugToolbar from 'react-debug-toolbar';
-import  'style!css!react-debug-toolbar/style.css';
+import  ToggleFlagsToolbar,{Flag} from 'react-toggle-flags';
 import  'style!css!react-toggle/style.css';
+import  'style!css!react-toggle-flags/style.css';
 
-const demo = <DebugToolbar variables={["flag1","flag2"]}/>
+const demo = <ToggleFlagsToolbar flags={["flag1","flag2"]}/>
 ```
 
-### Read flag value
+### Read flag value in app
 
 ```js
-import {DebugBoolean} from '../lib/DebugToolbar.jsx';
+import {Flag} from 'react-toggle-flags';
 
-if(DebugBoolean('flag1')){
+if(Flag('flag1')){
   ...
 }
 ```
@@ -34,6 +34,10 @@ if(DebugBoolean('flag1')){
 ```sh
 npm start
 ```
+
+### Compatibility
+
+* [LocalStorage](http://caniuse.com/#feat=namevalue-storage)
 
 ### Screenshot
 
