@@ -1,10 +1,11 @@
 {
-  "name": "react-debug-toolbar",
+  "name": "react-toggle-flags",
   "version": "0.0.1",
-  "description": "A simple component which will help you toggle boolean varilable easily in your app.",
+  "description": "A component which will help toggling boolean flags easily in your app.",
   "main": "index.js",
   "scripts": {
-    "build": "babel lib/DebugToolbar.jsx --out-file lib/DebugToolbar.js"
+    "build": "babel lib/ToggleFlagsToolbar.jsx --out-file index.js",
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "react",
@@ -23,7 +24,8 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.11"
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "css-loader": "^0.23.1"

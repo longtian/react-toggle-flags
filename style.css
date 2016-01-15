@@ -1,13 +1,17 @@
-.debug-toolbar {
+.toggle-flags-toolbar {
     position: fixed;
     left: 0;
     bottom: 0;
-    padding: 10px;
+    padding: 4px;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 4px;
     color: #ffffff;
 }
 
-.debug-toolbar label span {
+.toggle-flags-toolbar-title {
+    fontSize: '0.8em'
+}
+
+.toggle-flags-toolbar label span {
     vertical-align: top;
 }
